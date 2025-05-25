@@ -1,0 +1,20 @@
+Failed to compile.
+
+./app/[lng]/bookmarks/page.tsx
+Module not found: Can't resolve '@/components/bookmarks-page'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/[lng]/pilgrim-info/page.tsx
+Module not found: Can't resolve '@/components/pilgrim-info-page'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./app/[lng]/search/page.tsx
+Module not found: Can't resolve '@/components/search-page'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+> Build failed because of webpack errors
+error Command failed with exit code 1.

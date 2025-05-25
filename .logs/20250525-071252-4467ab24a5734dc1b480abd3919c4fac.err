@@ -1,0 +1,54 @@
+
+
+===== TS errors =====
+
+[Test Mode] ./app/i18n/index.ts:20:51
+Type error: Property 'keyPrefix' does not exist on type '{}'.
+
+[0m [90m 18 |[39m   [36mconst[39m i18nextInstance [33m=[39m [36mawait[39m initI18next(lng[33m,[39m ns)[0m
+[0m [90m 19 |[39m   [36mreturn[39m {[0m
+[0m[31m[1m>[22m[39m[90m 20 |[39m     t[33m:[39m i18nextInstance[33m.[39mgetFixedT(lng[33m,[39m ns[33m,[39m options[33m.[39mkeyPrefix)[33m,[39m[0m
+[0m [90m    |[39m                                                   [31m[1m^[22m[39m[0m
+[0m [90m 21 |[39m     i18n[33m:[39m i18nextInstance[0m
+[0m [90m 22 |[39m   }[0m
+[0m [90m 23 |[39m }[0m
+
+[Test Mode] ./app/layout.tsx:30:14
+Type error: Property 'lng' is missing in type '{}' but required in type 'HeaderProps'.
+
+[0m [90m 28 |[39m         [33m>[39m[0m
+[0m [90m 29 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m"flex flex-col min-h-screen"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 30 |[39m             [33m<[39m[33mHeader[39m [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 31 |[39m             [33m<[39m[33mmain[39m className[33m=[39m[32m"flex-grow"[39m[33m>[39m[0m
+[0m [90m 32 |[39m               {children}[0m
+[0m [90m 33 |[39m             [33m<[39m[33m/[39m[33mmain[39m[33m>[39m[0m
+
+[Test Mode] ./app/layout.tsx:34:14
+Type error: Property 'lng' is missing in type '{}' but required in type 'FooterProps'.
+
+[0m [90m 32 |[39m               {children}[0m
+[0m [90m 33 |[39m             [33m<[39m[33m/[39m[33mmain[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 34 |[39m             [33m<[39m[33mFooter[39m [33m/[39m[33m>[39m[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 35 |[39m           [33m<[39m[33m/[39m[33mdiv[39m[33m>[39m[0m
+[0m [90m 36 |[39m         [33m<[39m[33m/[39m[33mThemeProvider[39m[33m>[39m[0m
+[0m [90m 37 |[39m       [33m<[39m[33m/[39m[33mbody[39m[33m>[39m[0m
+
+===== TS errors =====
+
+
+Failed to compile.
+
+./app/i18n/index.ts:20:51
+Type error: Property 'keyPrefix' does not exist on type '{}'.
+
+[0m [90m 18 |[39m   [36mconst[39m i18nextInstance [33m=[39m [36mawait[39m initI18next(lng[33m,[39m ns)[0m
+[0m [90m 19 |[39m   [36mreturn[39m {[0m
+[0m[31m[1m>[22m[39m[90m 20 |[39m     t[33m:[39m i18nextInstance[33m.[39mgetFixedT(lng[33m,[39m ns[33m,[39m options[33m.[39mkeyPrefix)[33m,[39m[0m
+[0m [90m    |[39m                                                   [31m[1m^[22m[39m[0m
+[0m [90m 21 |[39m     i18n[33m:[39m i18nextInstance[0m
+[0m [90m 22 |[39m   }[0m
+[0m [90m 23 |[39m }[0m
+Next.js build worker exited with code: 1 and signal: null
+error Command failed with exit code 1.

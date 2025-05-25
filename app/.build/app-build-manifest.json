@@ -1,0 +1,158 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/app/_not-found/page-03211f913039e58f.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/css/843c6d3264fadeb0.css",
+      "static/chunks/app/layout-724ce5e6fbb7f83e.js"
+    ],
+    "/bookmarks/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/app/bookmarks/page-0b583fbea7157275.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/app/page-ab46f3c58dcd9e78.js"
+    ],
+    "/pilgrim-info/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/app/pilgrim-info/page-48fea988d965988d.js"
+    ],
+    "/search/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/app/search/page-eb57a04266b84c50.js"
+    ],
+    "/temples/[id]/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/app/temples/[id]/page-b0fb2556b4e12e9a.js"
+    ],
+    "/temples/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/app/temples/page-606e67742c23244c.js"
+    ],
+    "/travel-planning/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/app/travel-planning/page-9c8428136807afc0.js"
+    ],
+    "/[lng]/bookmarks/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/962-4cf84c7c8d951f98.js",
+      "static/chunks/app/[lng]/bookmarks/page-80c9ff37750a422f.js"
+    ],
+    "/[lng]/layout": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/css/48340cfe5c3cfec7.css",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/962-4cf84c7c8d951f98.js",
+      "static/chunks/app/[lng]/layout-6f098fd85908e435.js"
+    ],
+    "/[lng]/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/962-4cf84c7c8d951f98.js",
+      "static/chunks/app/[lng]/page-8550b453534369e4.js"
+    ],
+    "/[lng]/temples/[id]/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/962-4cf84c7c8d951f98.js",
+      "static/chunks/app/[lng]/temples/[id]/page-e99389a80e4c9864.js"
+    ],
+    "/[lng]/pilgrim-info/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/962-4cf84c7c8d951f98.js",
+      "static/chunks/app/[lng]/pilgrim-info/page-bdfc16bf85fa4ce3.js"
+    ],
+    "/[lng]/search/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/962-4cf84c7c8d951f98.js",
+      "static/chunks/app/[lng]/search/page-130ea7dfba023011.js"
+    ],
+    "/[lng]/temples/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/962-4cf84c7c8d951f98.js",
+      "static/chunks/app/[lng]/temples/page-362f2c200d72d2b1.js"
+    ],
+    "/[lng]/travel-planning/page": [
+      "static/chunks/webpack-a8ef743926440a4d.js",
+      "static/chunks/a0b5f63a-5d663b83920d995e.js",
+      "static/chunks/275-ba9c993a4da43611.js",
+      "static/chunks/main-app-d0d96f5b0c3fc738.js",
+      "static/chunks/209-88f346296d62c9a2.js",
+      "static/chunks/672-f01ede2c68e51267.js",
+      "static/chunks/962-4cf84c7c8d951f98.js",
+      "static/chunks/app/[lng]/travel-planning/page-1f4c355477a9af77.js"
+    ]
+  }
+}

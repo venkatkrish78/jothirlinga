@@ -1,0 +1,9 @@
+{
+  "/[lng]/page": "app/[lng]/page.js",
+  "/[lng]/travel-planning/page": "app/[lng]/travel-planning/page.js",
+  "/[lng]/pilgrim-info/page": "app/[lng]/pilgrim-info/page.js",
+  "/[lng]/temples/page": "app/[lng]/temples/page.js",
+  "/[lng]/search/page": "app/[lng]/search/page.js",
+  "/[lng]/temples/[id]/page": "app/[lng]/temples/[id]/page.js",
+  "/[lng]/bookmarks/page": "app/[lng]/bookmarks/page.js"
+}

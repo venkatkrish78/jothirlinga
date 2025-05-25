@@ -1,0 +1,94 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+    binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+    output = "/home/ubuntu/jyotirlinga_temples_app/node_modules/.prisma/client"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+model Temple {
+  id                String   @id @default(cuid())
+  name              String
+  location          String
+  state             String
+  city              String
+  address           String
+  mapUrl            String?
+  history           String   @db.Text
+  significance      String   @db.Text
+  mainDeity         String
+  uniqueFeatures    String   @db.Text
+  openingTime       String
+  closingTime       String
+  specialDarshan    String?
+  majorFestivals    String   @db.Text
+  dressCode         String   @db.Text
+  etiquette         String   @db.Text
+  contactPhone      String?
+  contactEmail      String?
+  officialWebsite   String?
+  nearestAirport    String
+  airportDistance   Int
+  nearestRailway    String
+  railwayDistance   Int
+  busRoutes         String   @db.Text
+  localTransport    String   @db.Text
+  accommodation     String   @db.Text
+  foodAvailability  String   @db.Text
+  facilities        String   @db.Text
+  safetyTips        String   @db.Text
+  emergencyContacts String   @db.Text
+  bestTimeToVisit   String
+  weatherInfo       String   @db.Text
+  images            Image[]
+  bookmarks         Bookmark[]
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+model Image {
+  id        String   @id @default(cuid())
+  url       String
+  caption   String?
+  temple    Temple   @relation(fields: [templeId], references: [id], onDelete: Cascade)
+  templeId  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model TravelCircuit {
+  id          String   @id @default(cuid())
+  name        String
+  description String   @db.Text
+  duration    String
+  itinerary   String   @db.Text
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model User {
+  id        String     @id @default(cuid())
+  email     String     @unique
+  name      String?
+  bookmarks Bookmark[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
+
+model Bookmark {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  temple    Temple   @relation(fields: [templeId], references: [id], onDelete: Cascade)
+  templeId  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, templeId])
+}

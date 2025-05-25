@@ -1,0 +1,24 @@
+HTTP/1.1 307 Temporary Redirect
+location: /en/
+Date: Sun, 25 May 2025 07:14:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+HTTP/1.1 308 Permanent Redirect
+location: /en
+Refresh: 0;url=/en
+Date: Sun, 25 May 2025 07:14:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+HTTP/1.1 200 OK
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Accept-Encoding
+link: </_next/static/media/a34f9d1faa5f3315-s.p.woff2>; rel=preload; as="font"; crossorigin=""; type="font/woff2"
+x-nextjs-cache: HIT
+Cache-Control: no-store, must-revalidate
+X-Powered-By: Next.js
+Content-Type: text/html; charset=utf-8
+Date: Sun, 25 May 2025 07:14:40 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

@@ -1,0 +1,13 @@
+HTTP/1.1 307 Temporary Redirect
+location: /en/
+Date: Sun, 25 May 2025 07:25:21 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+HTTP/1.1 308 Permanent Redirect
+location: /en
+Refresh: 0;url=/en
+Date: Sun, 25 May 2025 07:25:22 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 248, 250, 252;
+  --background-end-rgb: 255, 255, 255;
+  --primary: 220, 38, 38;
+  --primary-light: 254, 226, 226;
+  --primary-dark: 153, 27, 27;
+  --secondary: 30, 64, 175;
+  --secondary-light: 219, 234, 254;
+  --accent: 249, 115, 22;
+  --accent-light: 255, 237, 213;
+}
+
+.dark {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 30, 41, 59;
+  --primary-light: 153, 27, 27;
+  --primary-dark: 254, 226, 226;
+  --secondary-light: 30, 64, 175;
+  --secondary: 219, 234, 254;
+  --accent-light: 249, 115, 22;
+  --accent: 255, 237, 213;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    )
+    fixed;
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-[1200px] mx-auto px-4;
+  }
+  
+  .heading-1 {
+    @apply text-4xl md:text-5xl font-bold;
+  }
+  
+  .heading-2 {
+    @apply text-3xl md:text-4xl font-bold;
+  }
+  
+  .heading-3 {
+    @apply text-2xl md:text-3xl font-semibold;
+  }
+  
+  .heading-4 {
+    @apply text-xl md:text-2xl font-semibold;
+  }
+  
+  .btn-primary {
+    @apply bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md font-medium transition-all duration-300 flex items-center gap-2;
+  }
+  
+  .btn-secondary {
+    @apply bg-blue-700 hover:bg-blue-800 text-white px-6 py-3 rounded-md font-medium transition-all duration-300 flex items-center gap-2;
+  }
+  
+  .btn-outline {
+    @apply border border-red-600 text-red-600 hover:bg-red-50 px-6 py-3 rounded-md font-medium transition-all duration-300 flex items-center gap-2;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 overflow-hidden;
+  }
+  
+  .temple-card {
+    @apply card flex flex-col h-full;
+  }
+  
+  .temple-card-image {
+    @apply aspect-video w-full object-cover;
+  }
+  
+  .temple-card-content {
+    @apply p-6 flex flex-col flex-grow;
+  }
+  
+  .temple-card-title {
+    @apply text-xl font-bold mb-2 text-red-600 dark:text-red-400;
+  }
+  
+  .temple-card-location {
+    @apply text-sm text-gray-600 dark:text-gray-300 mb-4 flex items-center gap-1;
+  }
+  
+  .temple-card-description {
+    @apply text-gray-700 dark:text-gray-300 mb-4 flex-grow;
+  }
+  
+  .temple-card-footer {
+    @apply flex justify-between items-center mt-auto pt-4 border-t border-gray-100 dark:border-gray-700;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .section-title {
+    @apply heading-2 text-center mb-12;
+  }
+  
+  .section-title span {
+    @apply text-red-600 dark:text-red-400;
+  }
+  
+  .feature-card {
+    @apply card p-6 flex flex-col items-center text-center;
+  }
+  
+  .feature-icon {
+    @apply w-16 h-16 bg-red-100 dark:bg-red-900/30 text-red-600 dark:text-red-400 rounded-full flex items-center justify-center mb-4;
+  }
+  
+  .tab-button {
+    @apply px-4 py-2 font-medium rounded-md transition-all duration-300;
+  }
+  
+  .tab-button.active {
+    @apply bg-red-600 text-white;
+  }
+  
+  .tab-button:not(.active) {
+    @apply text-gray-600 dark:text-gray-300 hover:bg-red-50 dark:hover:bg-red-900/20;
+  }
+}
+
+/* SUPPORT NEXTJS ERROR UI */
+nextjs-portal {
+  display: none;
+}
+
+/* SUPPORT NEXTJS ERROR UI */
+nextjs-portal {
+  display: none;
+}

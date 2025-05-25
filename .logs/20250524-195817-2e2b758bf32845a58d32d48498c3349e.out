@@ -1,0 +1,43 @@
+yarn run v1.22.22
+$ next build
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.28
+  - Experiments (use with caution):
+    · outputFileTracingRoot
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Skipping linting
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/9) ...
+   Generating static pages (2/9) 
+   Generating static pages (4/9) 
+   Generating static pages (6/9) 
+ ✓ Generating static pages (9/9)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    4.71 kB         138 kB
+├ ○ /_not-found                          873 B            88 kB
+├ ○ /bookmarks                           2.46 kB         136 kB
+├ ○ /pilgrim-info                        7.99 kB         136 kB
+├ ○ /search                              3.72 kB         137 kB
+├ ○ /temples                             4.87 kB         138 kB
+├ ƒ /temples/[id]                        10.5 kB         144 kB
+└ ○ /travel-planning                     7.28 kB         141 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/364-e31d76e72a47a7be.js       31.6 kB
+  ├ chunks/618f8807-47e100f57b19a9cb.js  53.6 kB
+  └ other shared chunks (total)          1.89 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+Done in 41.72s.
