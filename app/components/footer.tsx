@@ -108,15 +108,15 @@ const Footer = async ({ lng }: FooterProps) => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-red-400 mt-0.5" />
-                <span className="text-gray-400">123 Spiritual Way, Varanasi, Uttar Pradesh, India</span>
+                <span className="text-gray-400">4114, prestige lakeside habitat, sh-35, bangalore, karnataka, India</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-red-400" />
-                <a href="mailto:info@jyotirlingaguide.com" className="text-gray-400 hover:text-white transition-colors">info@jyotirlingaguide.com</a>
+                <a href="mailto:venkat@jyotirlingaguide.com" className="text-gray-400 hover:text-white transition-colors">info@jyotirlingaguide.com</a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-red-400" />
-                <a href="tel:+919876543210" className="text-gray-400 hover:text-white transition-colors">+91 98765 43210</a>
+                <a href="tel:+919980902868" className="text-gray-400 hover:text-white transition-colors">+91 99809 02868</a>
               </li>
             </ul>
           </div>
